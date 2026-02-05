@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina One - Køb</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-content container">
+
+    <!-- Logo → tilbage til landingpage -->
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Lumina Audio logo">
+      <div class="logo-text">
+        <span class="logo-title">LUMINA</span>
+        <span class="logo-subtitle">AUDIO</span>
+      </div>
+    </a>
+
+    <a href="login.html" class="login-btn">Log ind</a>
+  </div>
+</header>
+
+<!-- PRODUKT -->
+<main class="buy-page container">
+
+  <!-- VENSTRE: BILLEDE + BESKRIVELSE -->
+  <section class="buy-left">
+    <img id="productImage" src="images/blue.png" alt="Lumina One Sky Blue">
+
+    <div class="buy-description">
+      <h2>Beskrivelse</h2>
+      <p>
+        LUMINA One er en stilren og bærbar Bluetooth-højttaler med kraftfuld lyd
+        og nordisk design. Den er velegnet til både hjemmet og brug på farten.
+      </p>
+    </div>
+  </section>
+
+  <!-- HØJRE: KØB -->
+  <section class="buy-right">
+    <div class="buy-box">
+
+      <h1 id="productTitle">LUMINA ONE - Sky Blue</h1>
+      <p class="price">1995 kr.</p>
+
+      <p class="label">Vælg farve</p>
+
+      <!-- FARVEVALG -->
+      <div class="color-options">
+        <button class="color-thumb"
+                data-img="images/rose.png"
+                data-name="Dusty Rose"
+                type="button">
+          <img src="images/thumbnails-rose.png" alt="Dusty Rose">
+          <span>Dusty Rose</span>
+        </button>
+
+        <button class="color-thumb active"
+                data-img="images/blue.png"
+                data-name="Sky Blue"
+                type="button">
+          <img src="images/thumbnails-blue.png" alt="Sky Blue">
+          <span>Sky Blue</span>
+        </button>
+
+        <button class="color-thumb"
+                data-img="images/black.png"
+                data-name="Midnight Black"
+                type="button">
+          <img src="images/thumbnails-black.png" alt="Midnight Black">
+          <span>Midnight Black</span>
+        </button>
+      </div>
+
+      <!-- SPECIFIKATIONER -->
+      <div class="specifications">
+        <h2>Specifikationer</h2>
+        <ul>
+          <li>Batteritid: Op til 18 timer</li>
+          <li>Opladning: USB-C</li>
+          <li>Bluetooth: Version 5.3</li>
+          <li>Rækkevidde: Op til 50 meter</li>
+          <li>Maks. lydstyrke: Op til 100 dB</li>
+          <li>Vægt: ca. 4,5 kg</li>
+          <li>Størrelse: 32 × 15 × 12 cm</li>
+          <li>Medfølger: USB-C kabel</li>
+        </ul>
+      </div>
+
+      <!-- CTA -->
+      <a href="#" class="primary-btn">Læg i kurv</a>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li>Kundeservice</li>
+        <li>Levering & returnering</li>
+        <li>FAQ</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Virksomhed</h4>
+      <ul>
+        <li>Om Lumina Audio</li>
+        <li>Værdier</li>
+        <li>Presse</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Jura</h4>
+      <ul>
+        <li>Handelsbetingelser</li>
+        <li>Privatlivspolitik</li>
+        <li>Cookies</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Lumina Audio - Alle rettigheder forbeholdes
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
 
